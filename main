@@ -1,8 +1,10 @@
  #include<reg52.h>
  #define uchar unsigned char
  #define uint unsigned int
+ 
  uchar code table[]="I LOVE YOU";
  uchar code table1[]="WWW.TXMCU.COM";
+ 
  sbit e=P3^4;
  sbit a=P3^5;
  sbit dula=P2^6;
